@@ -1,0 +1,199 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.outer{
+    height:100vh;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    height: 3.75rem;
+    width: 100%;
+    background-color: #061B33;
+    position: fixed;
+    display: flex;
+}
+
+.left{
+    height: 3.75rem;
+    width: 15.1875rem;
+    margin-left: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    height: 3.75rem;
+    width: 100%;
+    margin-right: 2rem;
+    color: white;
+    display: flex;
+    justify-content:  flex-end;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.header img{
+    height: 2rem;
+    width: 2rem;
+    padding-right: 0.75rem;
+}
+
+/*#logo{
+    filter: grayscale(0%);
+    background-color: black;
+}*/
+
+.main{
+    width: 100%;
+}
+
+.inner-left{
+    height: 37.5rem;
+    width: 12.24rem;
+    background-color: #EEEEEE;
+}
+
+.sidebar{
+    padding-top: 3.75rem;
+    width: 12.24rem;
+}
+
+.icons{
+    height: 1.45rem;
+    width: 9.6rem;
+    margin: 12px 0px 32px;
+    margin-left: 2rem;
+    font-size: 1.15rem;
+    opacity: 0.8;
+}
+
+.sidebar div:hover{
+    opacity:1;
+    font-size: 1.25rem;
+}
+
+#i1{
+    margin-top : 1rem;
+}
+
+#i2{
+    height: 2.69rem;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    margin-left: 0.5rem;
+    font: 15px;
+}
+
+.sidebar button{
+    height: 2.375rem;
+    width: 11.57rem;
+    background-color: #061B33;
+    border: none;
+    color: white;
+    margin-left: 0.45rem;
+    border-radius: 2rem;
+}
+
+.sidebar button:hover{
+    font-size: 0.9rem;
+}
+
+.main #box{
+    height: 15.375rem;
+    width: 23.75rem;
+    position: absolute;
+    top: 12.86rem;
+    left: 34.5rem;
+}
+
+.pass{
+    padding-top: 0.38rem;
+}
+
+.icon{
+    padding-left: 0.38rem;
+}
+
+#box input{
+    border: none;
+    height: 3.125rem;
+    width: 20.68rem;
+    background-color: #EEEEEE;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+.div2 p{
+    text-align: center;
+    height: 36px;
+    margin: 5px 0 10px;
+    font: 13px;
+}
+
+.div3{
+    height: 3.125rem;
+    padding: 1px 2px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #EEEEEE;
+}
+
+.div4{
+    height: 3.125rem;
+    padding: 1px 2px;
+    margin-bottom: 0.5rem;
+    background-color: #EEEEEE;
+}
+
+.div5 button{
+    height: 2.75rem;
+    width: 100%;
+    background-color: #061B33;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0.8125rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    height: 3.125rem;
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot1{
+    margin-left: 11.25rem;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    padding-left: 1.5rem;
+}
+
+.foot2{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    padding-right: 1.5rem;
+}
