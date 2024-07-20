@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: purple;
+}
+
+h3{
+    color: skyblue;
+}
+
+.btn{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: azure;
+}
+
+.scores{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 19rem;
+}
